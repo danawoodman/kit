@@ -1,5 +1,11 @@
 # create-svelte
 
+## 2.0.0-next.31
+
+### Patch Changes
+
+- c3cf3f3: Bump deps
+
 ## 2.0.0-next.30
 
 ### Patch Changes
