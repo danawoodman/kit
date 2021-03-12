@@ -32,7 +32,7 @@
 				<div class="col-xs-12 col-md-10 offset-md-1">
 					<img src={profile.image} class="user-img" alt={profile.username} />
 					<h4>{profile.username}</h4>
-					<p>{profile.bio}</p>
+					{#if profile.bio}<p>{profile.bio}</p>{/if}
 
 					{#if isUser}
 						<a href="/settings" class="btn btn-sm btn-outline-secondary action-btn">
